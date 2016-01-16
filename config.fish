@@ -11,7 +11,7 @@ function cdt
 	cd $tempdir
 end
 
-function edit
+function e
          eval $EDITOR $argv
 end
 
