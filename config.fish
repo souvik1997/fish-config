@@ -10,6 +10,11 @@ function cdt
 	set tempdir (mktemp -d)
 	cd $tempdir
 end
+
+function edit
+         eval $EDITOR $argv
+end
+
 if [ "$TERM" = "eterm-color" ]
    function fish_title
             true
